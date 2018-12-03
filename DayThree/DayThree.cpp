@@ -63,7 +63,6 @@ void partTwo() {
 	int width = 1000;
 	int height = 1000;
 	ifstream myfile ("input.txt");
-	int *grid = new int[width * height];
 	string input = "";
 	if (myfile.is_open()) { 
 		while (true) {
@@ -99,11 +98,9 @@ void partTwo() {
 					else {
 						map.insert({(j + y) * width + x + i, ID});
 					}
-					*(grid + ((j + y) * width + x + i)) += 1;
 				}
 			}
 		}
 		cout << "ID with unique area: " << *(++set.begin());
 	}
-	delete grid;
 }
