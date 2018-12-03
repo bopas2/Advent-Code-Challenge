@@ -65,6 +65,7 @@ void partTwo() {
 						s += input[j]; 
 				}
 				if (sets[i].count(s) == 1) {
+					cout << "Part Two" << endl;
 					cout << "Common letters in the ID: " << s;
 					return;
 				}
