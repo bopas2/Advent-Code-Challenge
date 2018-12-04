@@ -16,10 +16,6 @@ struct dataLine {
     int month = 0;
     int day = 0;
     int min = 0;
-
-    inline bool operator==(const dataLine& other) const {
-        return asleep == other.asleep && awake == other.awake && startShift == other.startShift && ID == other.ID && day == other.day && min == other.min;
-    }
 };
 
 void partOne();
