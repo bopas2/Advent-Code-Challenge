@@ -134,6 +134,7 @@ int main() {
         cout << "." << endl << "Chance that they will be asleep on that minute when they sleep: " << (double) highestFrequency / (count[bestID].size() - 1) << "." << endl;
         cout << "Checksum: " << bestID * whatMinute << endl;
     }
+    myfile.close();
 }
 
 bool dataLineCompare(dataLine lhs, dataLine rhs) {

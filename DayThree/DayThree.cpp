@@ -52,6 +52,7 @@ void partOne() {
 		}
 		cout << "Sq Foot Overlapped: " << count << endl;
 	}
+	myfile.close();
 	delete grid;
 }
 
@@ -101,6 +102,7 @@ void partTwo() {
 				}
 			}
 		}
-		cout << "ID with unique area: " << *(++set.begin());
+		cout << "ID with unique area: " << *(++set.begin()) << endl;
 	}
+	myfile.close();
 }

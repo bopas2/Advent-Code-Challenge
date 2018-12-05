@@ -73,5 +73,6 @@ void partTwo() {
 			}
 		}
 	}
+	myfile.close();
 }
 
