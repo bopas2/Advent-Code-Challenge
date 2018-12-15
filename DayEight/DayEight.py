@@ -33,11 +33,6 @@ dat = recursive(inp)
 print(sum)
 print(recursiveTwo(dat))
 
-
-
-
-
-
 # ATTEMPT ONE for PART ONE [works for small data input]
 # sum = 0
 # def recursive(seen, unseen):

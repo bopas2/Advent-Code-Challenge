@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.HashSet;
 
 public class DayOne {
-    static final File FILE = new File("C:\\Users\\langt\\Desktop\\Avent of code\\DayOne\\input.txt");
+    static final File FILE = new File("C:\\Users\\langt\\Desktop\\'Advent of code'\\DayOne\\input.txt");
 
     public static void main(String[] args) throws Exception {
         System.out.println(partOne());
